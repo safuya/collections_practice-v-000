@@ -37,5 +37,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map { |word| "#{word}s" }
+  a = array[1]
+  array.map! { |word| "#{word}s" }
+  array[1] = a
+  array
 end
