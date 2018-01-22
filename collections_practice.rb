@@ -11,4 +11,5 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  array.slice[1..2].sort { |a, b| 1 }
 end
