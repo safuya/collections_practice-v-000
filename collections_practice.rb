@@ -21,3 +21,8 @@ end
 def reverse_array(array)
   array.sort { |a, b| 1 }
 end
+
+def kesha_maker(array)
+  array.each { |word| word[2] = $ }
+  array
+end
